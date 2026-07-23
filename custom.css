@@ -1,5 +1,6 @@
 body {
   padding: 1em;
+  font-size: 1.3em;
 }
 
 #links {
@@ -29,9 +30,14 @@ body {
   padding: 1em;
   margin: 1em auto;
   align-items: center;
+  gap: 10px;
 }
 
 .h-card img {
   height: 100px;
   width: 100px;
+}
+
+.p-name {
+  font-weight: 700;
 }
