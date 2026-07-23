@@ -22,3 +22,16 @@ body {
 #links a:hover {
   background: rgba(200, 180, 100, 0.7);
 }
+
+.h-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 1em auto;
+  align-items: center;
+}
+
+.h-card img {
+  height: 100px;
+  width: 100px;
+}
