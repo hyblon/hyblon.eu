@@ -41,3 +41,17 @@ body {
 .p-name {
   font-weight: 700;
 }
+
+.card-header, .card-body, .card-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+  .card-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
