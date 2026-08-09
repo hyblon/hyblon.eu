@@ -49,6 +49,10 @@ body {
   align-items: center;
 }
 
+.card-body {
+  text-align: center;
+}
+
 @media screen and (min-width: 500px) {
   .card-links {
     flex-direction: row;
