@@ -85,20 +85,20 @@
           doc.querySelector('.e-content p');
 
         if (extractedElement) {
-          quoteBody.innerHTML = '
+          quoteBody.innerHTML = `
             <p>"${extractedElement.textContent.trim()}"</p>
             <cite>— Estratto da: <strong>${doc.title || targetUrl}</strong></cite>
-          ';
+          `;
         } else {
           throw new Error('Nessun contenuto estraibile trovato nella fonte');
         }
 
       } catch (error) {
         console.warn('Impossibile caricare il contesto via fetch:', error);
-        quoteBody.innerHTML = '
+        quoteBody.innerHTML = `
           <p><em>Impossibile recuperare l'anteprima automatica.</em></p>
           <a href="${targetUrl}" target="_blank">Apri l'articolo originale &rarr;</a>
-        ';
+        `;
       }
     });
   </script>
