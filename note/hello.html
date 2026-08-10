@@ -36,25 +36,27 @@ post.</h1>
     <!-- Link canonico -->
     <a class="u-url" href=https://hyblon.codeberg.page/note/hello.html style="display:none;"></a>  
   </article>
+  
+  <footer>
+    <section id="send-webmention">
+        <form action="https://webmention.io/hyblon.codeberg.page/webmention" method="POST" target="_blank">
+            <h3>Invia una Webmention</h3>
 
-  <section id="send-webmention">
-    <form action="https://webmention.io/hyblon.codeberg.page/webmention" method="POST" target="_blank">
-      <h3>Invia una Webmention</h3>
+            <label for="source">Il tuo URL di risposta:</label>
+            <input id="source" type="url" name="source" placeholder="https://..." required>
 
-      <label for="source">Il tuo URL di risposta:</label>
-      <input id="source" type="url" name="source" placeholder="https://..." required>
+            <input id="target" type="hidden" name="target" value=https://hyblon.codeberg.page/note/hello.html>
 
-      <input id="target" type="hidden" name="target" value=https://hyblon.codeberg.page/note/hello.html>
+            <button type="submit">Invia</button>
+        </form>
 
-      <button type="submit">Invia</button>
-    </form>
-
-  </section>
+    </section>
 
 
-  <section id="webmentions">
-    <h3>Webmentions</h3>
-    <div id="webmention-container">Caricamento menzioni...</div>
-  </section>
+    <section id="webmentions">
+        <h3>Webmentions</h3>
+        <div id="webmention-container">Caricamento menzioni...</div>
+    </section>
+  </footer>
 </body>
 </html>
