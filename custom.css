@@ -3,6 +3,14 @@ body {
   font-size: 1.3em;
 }
 
+footer {
+    padding: 1em;
+    font-size: .7em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
 #links {
   display: flex;
   flex-direction: column;
