@@ -14,13 +14,18 @@
     <description><![CDATA[<h1 id="nota-1.">Nota 1.</h1>
 <p>Con un semplice script in Python e Pandoc posso generare un sito
 completo con:</p>
-<p>Completato: * Supporto Markdown (via Pandoc) * Generazione automatica
-indice note/articoli * Supporto Indieweb con Microformats2 e Webmentions
-* Supporto RSS 2.0</p>
-<p>Da fare: * Gestione errori * Implementare i tags per mettere in
-relazione le note. * u-syndication * Integrazione Fediverso (ho già uno
-script quasi pronto) * Interfaccia unica per gestire le varie fasi della
-scrittura e della pubblicazione. * Interfaccia web</p>
+<p>Completato:</p>
+<pre><code>* Supporto Markdown (via Pandoc)
+* Generazione automatica indice note/articoli
+* Supporto Indieweb con Microformats2 e Webmentions
+* Supporto RSS 2.0</code></pre>
+<p>Da fare:</p>
+<pre><code>* Gestione errori
+* Implementare i tags per mettere in relazione le note.
+* u-syndication 
+* Integrazione Fediverso (ho già uno script quasi pronto)
+* Interfaccia unica per gestire le varie fasi della scrittura e della pubblicazione. 
+* Interfaccia web</code></pre>
 <p>Per il momento è <strong>perfetto</strong> al 100%.</p>
 ]]></description>
 </item>
