@@ -10,7 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="/note/feed.xml">
   <link rel="webmention" href="https://webmention.io/hyblon.codeberg.page/webmention">
 
-  <title>Hello</title>
+  <title>$titolo</title>
 
   <script src="../script.js" defer></script>
 </head>
@@ -22,14 +22,10 @@
     </header>
     <div class="e-content">
       <!--<img src="../clipart.png" alt="clipart" height="200">-->
-      <h1 id="questo-è-il-titolo-del-mio-post.">Questo è il titolo del mio
-post.</h1>
-<p>Ciao a tutti. Con un semplice script in Python posso generare un blog
-<strong>perfetto</strong>.</p>
-
+      $body
     </div>
     <!-- Link canonico -->
-    <a class="u-url" href=https://hyblon.codeberg.page/note/hello.html style="display:none;"></a>  
+    <a class="u-url" href="https://hyblon.codeberg.page/note/.html" style="display:none;"></a>  
   </article>
 
   <section id="send-webmention">
@@ -39,7 +35,7 @@ post.</h1>
       <label for="source">Il tuo URL di risposta:</label>
       <input id="source" type="url" name="source" placeholder="https://..." required>
 
-      <input id="target" type="hidden" name="target" value=https://hyblon.codeberg.page/note/hello.html>
+      <input id="target" type="hidden" name="target" value="https://hyblon.codeberg.page/blog/p/.html">
 
       <button type="submit">Invia</button>
     </form>
@@ -52,7 +48,7 @@ post.</h1>
     <div id="webmention-container">Caricamento menzioni...</div>
   </section>
   <nav>
-    <a href="index.html">[Indice Note]</a>
+    <a href="../index.html">Home</a>
   </nav>
 </body>
 </html>
