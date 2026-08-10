@@ -8,8 +8,8 @@
     <item>
         <title>Inizio</title>
         <author>Hyblon</author>
-        <link>https:/hyblon.codeberg.page/public/note/00001.html</link>
-        <guid>https:/hyblon.codeberg.page/public/note/00001.html</guid>
+        <link>https:/hyblon.codeberg.page/public/note/public/note</link>
+        <guid>https:/hyblon.codeberg.page/public/note/public/note</guid>
         <pubDate>2026-08-10</pubDate>
         <description><![CDATA[<h2 id="nota-1.">Nota 1.</h2>
 <p>Con un semplice script in Python e Pandoc posso generare un sito
