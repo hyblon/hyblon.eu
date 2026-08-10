@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>Il mio Blog</title>
+<title>Note di Hyblon</title>
 <link>https://hyblon.codeberg.page/note</link>
-<description>Feed RSS</description>
+<description>Note di Hyblon</description>
 
 <item>
     <title>Hello</title>
     <link>https://hyblon.codeberg.page/note/hello.html</link>
     <guid>https://hyblon.codeberg.page/note/hello.html</guid>
-    <pubDate>Mon, 10 Aug 2026 07:55:04 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 07:59:54 GMT</pubDate>
     <description><![CDATA[<h1 id="questo-è-il-titolo-del-mio-post.">Questo è il titolo del mio
 post.</h1>
 <p>Ciao a tutti. Con un semplice script in Python posso generare un blog
