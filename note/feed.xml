@@ -12,8 +12,8 @@
     <guid>https://hyblon.codeberg.page/note/00001.html</guid>
     <pubDate>2026-08-10</pubDate>
     <description><![CDATA[<h1 id="nota-1.">Nota 1.</h1>
-<p>Ciao a tutti. Con un semplice script in Python e Pandoc posso
-generare un sito completo con:</p>
+<p>Con un semplice script in Python e Pandoc posso generare un sito
+completo con:</p>
 <pre><code>* Supporto Markdown
 * Generazione automatica indice note/articoli
 * Supporto Indieweb con Microformats2 e Webmentions
