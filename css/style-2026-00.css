@@ -23,6 +23,13 @@ body {
   color: var(--text-color);
 }
 
+footer {
+    padding: 1em;
+    font-size: .7em;
+    font-weight: 600;
+    font-style: italic;
+}
+
 /* Intestazione e tipografia */
 article {
   margin-bottom: 2rem;
