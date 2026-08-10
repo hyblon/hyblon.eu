@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Il mio Blog</title>
+<link>https://hyblon.codeberg.page</link>
+<description>Feed RSS</description>
+
+<item>
+    <title>Hello</title>
+    <link>note/hello.html</link>
+    <guid>note/hello.html</guid>
+    <pubDate>Mon, 10 Aug 2026 07:15:18 GMT</pubDate>
+    <description><![CDATA[<h1 id="questo-è-il-titolo-del-mio-post.">Questo è il titolo del mio
+post.</h1>
+<p>Ciao a tutti. Con un semplice script in Python posso generare un blog
+<strong>perfetto</strong>.</p>
+<p>Questo è il primo articolo di una lunga serie.</p>
+]]></description>
+</item>
+</channel>
+</rss>
