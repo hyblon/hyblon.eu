@@ -12,9 +12,11 @@
     <guid>https://hyblon.codeberg.page/note/hello.html</guid>
     <pubDate>2026-08-10</pubDate>
     <description><![CDATA[<h1 id="nota-1.">Nota 1.</h1>
-<p>Ciao a tutti. Con un semplice script in Python posso generare un sito
-completo con - Supporto Markdown - Generazione automatica indice
-note/articoli - Supporto RSS</p>
+<p>Ciao a tutti. Con un semplice script in Python e Pandoc posso
+generare un sito completo con:</p>
+<pre><code>* Supporto Markdown
+* Generazione automatica indice note/articoli
+* Supporto RSS </code></pre>
 <p>100% <strong>perfetto</strong>.</p>
 ]]></description>
 </item>
