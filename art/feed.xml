@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Note di Hyblon</title>
+<link>https://hyblon.codeberg.page/note</link>
+<description>Note di Hyblon</description>
+
+    <item>
+        <title>Prova Articolo</title>
+        <author>Hyblon</author>
+        <link>https:/hyblon.codeberg.page/public/art/00002.html</link>
+        <guid>https:/hyblon.codeberg.page/public/art/00002.html</guid>
+        <pubDate>2026-08-10</pubDate>
+        <description><![CDATA[<h2 id="articolo-1.">Articolo 1.</h2>
+<p>Questo è un articolo.</p>
+]]></description>
+    </item>
+</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Note di Hyblon</title>
+<link>https://hyblon.codeberg.page/note</link>
+<description>Note di Hyblon</description>
+
+    <item>
+        <title>Inizio</title>
+        <author>Hyblon</author>
+        <link>https:/hyblon.codeberg.page/public/note/00001.html</link>
+        <guid>https:/hyblon.codeberg.page/public/note/00001.html</guid>
+        <pubDate>2026-08-10</pubDate>
+        <description><![CDATA[<h2 id="nota-1.">Nota 1.</h2>
+<p>Con un semplice script in Python e Pandoc posso generare un sito
+completo con:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" disabled checked="" />Supporto Markdown (via
+Pandoc)</label></li>
+<li><label><input type="checkbox" disabled checked="" />Generazione automatica
+indice note/articoli</label></li>
+<li><label><input type="checkbox" disabled checked="" />Supporto Indieweb con
+Microformats2</label></li>
+<li><label><input type="checkbox" disabled checked="" />Supporto
+Webmentions</label></li>
+<li><label><input type="checkbox" disabled />Supporto RSS 2.0 (In
+progress)</label></li>
+<li><label><input type="checkbox" disabled />Supporto Atom</label></li>
+<li><label><input type="checkbox" disabled />Gestione errori e pulizia
+codice</label></li>
+<li><label><input type="checkbox" disabled checked="" />Distinzione tra nota,
+articolo e commento</label></li>
+<li><label><input type="checkbox" disabled />Implementare i tag per mettere in
+relazione le note.</label></li>
+<li><label><input type="checkbox" disabled />Sistema di gestione dei
+tag</label></li>
+<li><label><input type="checkbox" disabled />u-syndication</label></li>
+<li><label><input type="checkbox" disabled />Integrazione Fediverso (ho già uno
+script quasi pronto)</label></li>
+<li><label><input type="checkbox" disabled />Interfaccia unica per gestire le
+varie fasi della scrittura e della pubblicazione.</label></li>
+<li><label><input type="checkbox" disabled />Interfaccia web (forse)</label></li>
+</ul>
+<p>Per il momento è <strong>perfetto</strong> al 100%.</p>
+]]></description>
+    </item>
+</channel>
+</rss>
