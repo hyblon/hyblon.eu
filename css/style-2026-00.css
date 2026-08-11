@@ -178,3 +178,20 @@ div[class=sourceCode] {
 code {
   text-wrap: auto;
 }
+
+
+.numberSource code > span {
+    counter-increment: source-line;
+}
+
+.numberSource code {
+    counter-reset: source-line;
+}
+
+.numberSource code > span::before {
+    content: counter(source-line);
+    display: inline-block;
+    width: 2em;
+    margin-right: 1em;
+    text-align: right;
+}
