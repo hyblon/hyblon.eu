@@ -17,11 +17,16 @@
       padding-bottom: 12px;
       margin-bottom: 24px;
     }
+
     h1 {
       color: #1e40af;
-      font-size: 1.3rem;
       margin: 0 0 12px 0;
     }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-transform: uppercase;
+    }
+
     .header-meta {
       background-color: #eff6ff;
       border: 1px solid #bfdbfe;
