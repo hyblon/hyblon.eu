@@ -194,7 +194,44 @@ code {
 .numberSource code > span::before {
     content: counter(source-line);
     display: inline-block;
+    color: #d6ffad;
     width: 2em;
     margin-right: 1em;
     text-align: right;
+}
+
+.sourceCode {
+    background: slategray;
+    color: #d6ffad;
+}
+
+/* keywords */
+.sourceCode .kw {
+    color: #d6ffad;
+}
+
+/* punctuation */
+.sourceCode .ch,
+.sourceCode .op {
+    color: #b8d99a;
+}
+
+/* strings */
+.sourceCode .st {
+    color: #fff3a3;
+}
+
+/* numbers */
+.sourceCode .dv {
+    color: #bde7ff;
+}
+
+/* units / datatypes */
+.sourceCode .dt {
+    color: #a8d8ff;
+}
+
+/* functions */
+.sourceCode .fu {
+    color: #ffc58a;
 }
