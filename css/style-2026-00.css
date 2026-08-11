@@ -35,11 +35,21 @@ footer {
 }
 
 /* Intestazione e tipografia */
+
 article {
-  margin-bottom: 2rem;
-  border-bottom: 2px solid var(--border-color);
+  /* border-bottom: 2px solid var(--border-color); */
   padding-bottom: 1rem;
+  margin: 2rem 0;
 }
+
+article::before, article::after {
+  content: "* * * * * *";
+  display: block;
+  text-align: center;
+  margin: 2em;
+}
+
+
 
 h1.p-name {
   font-size: 2rem;
@@ -137,7 +147,7 @@ a:hover {
 nav {
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--border-color);
+  /*border-top: 1px solid var(--border-color);*/
   font-size: 0.9rem;
 }
 
