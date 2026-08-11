@@ -51,9 +51,9 @@ varie fasi della scrittura e della pubblicazione.</label></li>
         <guid>000001.html</guid>
         <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<h2 id="monospace.">Monospace.</h2>
-<p>Mi piace da impazzire l’effetto macchina da scrivere tipo macchina da
-scrivere. Ho impostato il font del sito a un semplice
-<strong>monospace</strong> e aggiunto il text-shadow:</p>
+<p>Mi piace da impazzire il carattere tipo macchina da scrivere. Ho
+impostato il font del sito a un semplice <strong>monospace</strong> e
+aggiunto il text-shadow:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>body {</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="dv">monospace</span><span class="op">;</span></span>
