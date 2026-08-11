@@ -3,10 +3,11 @@ body {
     margin: 40px auto;
     padding: 0 20px;
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     font-size: 1.2rem;
     color: #333;
     background: #fdfdfd;
+    font-family: monospace;
 }
 
 header {
