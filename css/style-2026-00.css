@@ -197,7 +197,10 @@ code {
     color: #d6ffad;
     width: 2em;
     margin-right: 1em;
+    padding-right: 5px;
     text-align: right;
+    background: #3c5775;
+   
 }
 
 .sourceCode {
