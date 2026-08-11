@@ -172,6 +172,7 @@ div[class=sourceCode] {
     padding: 1em;
     background: slategrey;
     color: aliceblue;
+    text-shadow: none;
 }
 
 code {
