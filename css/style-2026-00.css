@@ -169,6 +169,7 @@ nav {
 }
 
 div[class=sourceCode] {
+    background: #3c5775ed;
     padding: 1em;
     color: aliceblue;
     text-shadow: none;
@@ -200,7 +201,6 @@ code {
 }
 
 .sourceCode {
-    background: #3c5775ed;
     color: #d6ffad;
 }
 
