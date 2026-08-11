@@ -146,3 +146,7 @@ div[class=sourceCode] {
     background: slategrey;
     color: aliceblue;
 }
+
+code {
+  text-wrap: auto;
+}
