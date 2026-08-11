@@ -238,3 +238,9 @@ code {
 .sourceCode .fu {
     color: #ffc58a;
 }
+
+/* Basic language style */
+.sourceCode.basic .kw {
+    text-transform: uppercase;
+    font-weight: bold;
+}
