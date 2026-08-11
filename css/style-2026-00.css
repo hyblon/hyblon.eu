@@ -141,7 +141,18 @@ blockquote cite {
 a {
   color: var(--accent-color);
   text-decoration: none;
+  text-transform: lowercase;
 }
+
+a::before {
+  content: "["
+} 
+
+a::after{
+  content: "]"
+}
+
+
 
 a:hover {
   text-decoration: underline;
