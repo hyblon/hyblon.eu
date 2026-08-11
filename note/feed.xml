@@ -11,7 +11,7 @@
         <link>00001.html</link>
         <guid>00001.html</guid>
         <pubDate>2026-08-11</pubDate>
-        <description><![CDATA[<h2 id="nota-1.">Nota 1.</h2>
+        <description><![CDATA[<h2 id="nota-1---todo.">Nota 1 - TODO.</h2>
 <p>Con un semplice script in Python e Pandoc posso generare un sito
 completo con:</p>
 <ul class="task-list">
@@ -42,6 +42,28 @@ varie fasi della scrittura e della pubblicazione.</label></li>
 <li><label><input type="checkbox" disabled />Interfaccia web (forse)</label></li>
 </ul>
 <p>Per il momento è <strong>perfetto</strong> al 100%.</p>
+]]></description>
+    </item>
+    <item>
+        <title>Monospace</title>
+        <author>Hyblon</author>
+        <link>000001.html</link>
+        <guid>000001.html</guid>
+        <pubDate>2026-08-11</pubDate>
+        <description><![CDATA[<h2 id="monospace.">Monospace.</h2>
+<p>Mi piace da impazzire l’effetto macchina da scrivere tipo Olivetti
+22. Ho impostato il font del sito a un semplice
+<strong>monospace</strong> e aggiunto il text-shadow:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>body {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="dv">monospace</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span><span class="ch">:</span> <span class="dv">16</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">line-height</span><span class="ch">:</span> <span class="dv">1.8</span><span class="op">;</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">letter-spacing</span><span class="ch">:</span> <span class="dv">1</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-shadow</span><span class="ch">:</span> <span class="dv">0</span> <span class="dv">0</span> <span class="dv">0.5</span><span class="dt">px</span> <span class="fu">rgba(</span><span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0.8</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Devo trovare il giusto equilibro tra la spaziatura delle lettere e
+l’altezza dell’interlinea.</p>
 ]]></description>
     </item>
 </channel>
