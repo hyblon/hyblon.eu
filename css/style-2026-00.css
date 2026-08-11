@@ -195,14 +195,14 @@ code {
     content: counter(source-line);
     display: inline-block;
     color: #d6ffad;
-    width: 2em;
-    margin-right: 1em;
-    padding-right: 5px;
+    width: 3em;
     text-align: right;
-    background: #3c5775;
-   
+    padding-right: 5px;
+    background: #3c5775;    
+    margin: 3px;
+    margin-right:20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
-
 .sourceCode {
     color: #d6ffad;
 }
