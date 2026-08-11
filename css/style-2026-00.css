@@ -173,6 +173,9 @@ div[class=sourceCode] {
     background: slategrey;
     color: aliceblue;
     text-shadow: none;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    font-size: 14px;
 }
 
 code {
