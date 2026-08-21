@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-    <title>Feed - art</title>
-    <link>https://hyblon.eu/art</link>
-    <description>Feed - art</description>
+    <title>Note di Hyblon</title>
+    <link>https://hyblon.eu/note</link>
+    <description>Note di Hyblon</description>
     
     <item>
         <title>Prova Articolo</title>
         <author>Hyblon</author>
-        <link>https://hyblon.eu/art/00002.html</link>
-        <guid>https://hyblon.eu/art/00002.html</guid>
-        <pubDate>10 agosto 2026</pubDate>
+        <link>00002.html</link>
+        <guid>00002.html</guid>
+        <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<h2 id="articolo-1.">Articolo 1.</h2>
 <p>Questo è un articolo.</p>
 ]]></description>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-    <title>Feed - note</title>
+    <title>Note di Hyblon</title>
     <link>https://hyblon.eu/note</link>
-    <description>Feed - note</description>
+    <description>Note di Hyblon</description>
     
     <item>
         <title>Inizio</title>
         <author>Hyblon</author>
-        <link>https://hyblon.eu/note/00001.html</link>
-        <guid>https://hyblon.eu/note/00001.html</guid>
-        <pubDate>10 agosto 2026</pubDate>
+        <link>00001.html</link>
+        <guid>00001.html</guid>
+        <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<h2 id="nota-1---todo.">Nota 1 - TODO.</h2>
 <p>Con un semplice script in Python e Pandoc posso generare un sito
 completo con:</p>
@@ -47,9 +47,9 @@ varie fasi della scrittura e della pubblicazione.</label></li>
     <item>
         <title>Monospace</title>
         <author>Hyblon</author>
-        <link>https://hyblon.eu/note/000001.html</link>
-        <guid>https://hyblon.eu/note/000001.html</guid>
-        <pubDate>11 agosto 2026</pubDate>
+        <link>000001.html</link>
+        <guid>000001.html</guid>
+        <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<h2 id="monospace.">Monospace.</h2>
 <p>Mi piace da impazzire il carattere tipo macchina da scrivere. Ho
 impostato il font del sito a un semplice <strong>monospace</strong> e
@@ -69,9 +69,9 @@ l’altezza dell’interlinea.</p>
     <item>
         <title>Prova ssg</title>
         <author>Hyblon</author>
-        <link>https://hyblon.eu/note/00004.html</link>
-        <guid>https://hyblon.eu/note/00004.html</guid>
-        <pubDate>21 agosto 2026</pubDate>
+        <link>00004.html</link>
+        <guid>00004.html</guid>
+        <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<p>Sto provando il mio ssg e la configurazione per adattarlo al nuovo
 dominio.</p>
 ]]></description>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-    <title>Feed - com</title>
-    <link>https://hyblon.eu/com</link>
-    <description>Feed - com</description>
+    <title>Note di Hyblon</title>
+    <link>https://hyblon.eu/note</link>
+    <description>Note di Hyblon</description>
     
     <item>
         <title>Risposta a: Create that blog</title>
         <author>Hyblon</author>
-        <link>https://hyblon.eu/com/00003.html</link>
-        <guid>https://hyblon.eu/com/00003.html</guid>
-        <pubDate>11 agosto 2026</pubDate>
+        <link>00003.html</link>
+        <guid>00003.html</guid>
+        <pubDate>2026-08-11</pubDate>
         <description><![CDATA[<h2 id="in-risposta-a-create-that-blog">In risposta a: Create that
 blog</h2>
 <p>E niente, ho solo letto e trovato interessante questo post.</p>
