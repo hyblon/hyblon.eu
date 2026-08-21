@@ -71,7 +71,13 @@ section li{
   #top-menu {
     flex-direction: row;
     gap: 15px;
-    padding: 2em 0;
+    margin-top: 1em;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(96, 196, 183);
+    box-shadow:  rgb(255, 0, 255) 0px 5px 0px, rgba(96, 196, 183, 0.2) 0px 5px 0px;
+    }
   }
 
 }
