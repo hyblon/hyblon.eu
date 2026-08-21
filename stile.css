@@ -1,13 +1,12 @@
 body {
-    max-width: 80ch;
+    max-width: 650px;
     margin: 40px auto;
     padding: 0 20px;
     font-family: sans-serif;
-    line-height: 1.8;
+    line-height: 1.6;
     font-size: 1.2rem;
     color: #333;
-    background: #f4f1ea;
-    font-family: monospace;
+    background: #fdfdfd;
 }
 
 header {
