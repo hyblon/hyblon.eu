@@ -29,20 +29,71 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.h-card {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  text-wrap: wrap;
+  width: 100%;
+  background: rgba(96, 196, 183, 0.178);
+ 
+
+}
+
 .card-header, .card-body, .card-links {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 1em auto;
+}
+
+.nav-menu a {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  background-color: wheat;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  background-color: aquamarine;
 }
 
 .card-body {
   text-align: center;
 }
 
+
 @media screen and (min-width: 500px) {
   .card-links {
     flex-direction: row;
     gap: 20px;
+  }
+
+  .nav-menu {
+  
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .nav-menu a {
+      background: transparent;
+      width: auto;
+      box-shadow: none;
+      
+  }
+
+  .nav-menu a:hover {
+    background: none;
+    text-decoration: underline;
   }
 }
