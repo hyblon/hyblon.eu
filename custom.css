@@ -61,6 +61,11 @@ section li{
   
 }
 
+main {
+    border-bottom: 2px solid rgb(96, 196, 183);
+    box-shadow:  rgb(255, 0, 255) 0px 5px 0px, rgba(96, 196, 183, 0.2) 0px 5px 0px;
+}
+
 
 @media screen and (min-width: 550px) {
 
