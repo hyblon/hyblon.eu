@@ -70,6 +70,8 @@ section li{
 
   #top-menu {
     flex-direction: row;
-    gap: 5px;
+    gap: 15px;
+    padding: 2em 0;
   }
+
 }
