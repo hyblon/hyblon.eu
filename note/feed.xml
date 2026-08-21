@@ -42,6 +42,33 @@ varie fasi della scrittura e della pubblicazione.</label></li>
 <li><label><input type="checkbox" disabled />Interfaccia web (forse)</label></li>
 </ul>
 <p>Per il momento è <strong>perfetto</strong> al 100%.</p>
+<p>Aggiornamento del 21 Agosto 2026</p>
+<ul class="task-list">
+<li><label><input type="checkbox" disabled />Fare analizzare il codice da una o
+più AI.</label></li>
+<li><label><input type="checkbox" disabled checked="" />Aggiunta scripts di
+supporto per l’editing e il deploy (con l’aiuto di Gemini)</label></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+        <title>Prova ssg</title>
+        <author>Hyblon</author>
+        <link>00005.html</link>
+        <guid>00005.html</guid>
+        <pubDate>2026-08-11</pubDate>
+        <description><![CDATA[<p>Sto provando il mio ssg e la configurazione per adattarlo al nuovo
+dominio. Una schifezza. Tutto da rifare. Lo script in sé funziona anche
+bene, il problema è se smetto di usarlo per qualche giorno. Quando
+riprendo ho già dimenticato il flusso di lavoro e mi devo rileggere il
+codice. Troppo dispendioso, servono delle funzioni di aiuto per
+orchestrare tutto. Ci sono delle cose da rifinire e da semplificare, ma
+non mi va di farlo già adesso. Voglio continuare a usarlo e a testarne
+la comodità prima di fare modifiche o aggiunte.</p>
+<p>Mi sono fatto creare uno script di aiuto da Gemini, ora analizzo il
+codice e vedo se è usabile e cosa devo migliorare. Sì lo so, mi sto
+facendo aiutare dall’AI, ho cambiato opinione. E allora? A breve una
+nota anche su questo.</p>
 ]]></description>
     </item>
     <item>
