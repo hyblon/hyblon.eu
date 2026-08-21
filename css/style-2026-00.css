@@ -168,6 +168,12 @@ nav {
   font-size: 0.9rem;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
 div[class=sourceCode] {
     background: #3c5775ed;
     padding: 1em;
