@@ -43,7 +43,8 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
 p.p-note {
