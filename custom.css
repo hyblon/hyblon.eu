@@ -11,14 +11,20 @@
   display: flex;
   flex-direction: column;
   padding: 1em;
-  margin: 1em auto;
+  margin: 0 auto;
   align-items: center;
   gap: 10px;
+  text-wrap: wrap;
+  height: auto;
+  background-color: rgba(96, 196, 183, 0.176);
 }
 
 .h-card img {
   height: 100px;
   width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.14);
+  border:2px solid rgba(0, 0, 0, 0.4);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,15 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .p-name {
   font-weight: 700;
-}
-
-.h-card {
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
-  text-wrap: wrap;
-  width: 100%;
-  background: rgba(96, 196, 183, 0.178);
- 
-
 }
 
 .card-header, .card-body, .card-links {
