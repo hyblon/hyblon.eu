@@ -44,6 +44,8 @@ article::before, article::after {
   display: block;
   text-align: center;
   margin: 2em;
+  color: darkcyan;
+  font-weight: 700;
 }
 
 
