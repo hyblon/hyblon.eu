@@ -23,7 +23,7 @@
   --toggle-hover: var(--accent-color);
   --box-shadow: var(--accent-color);
   --border-color: magenta;
-  --pname-bg: cyan;
+  --pname-bg: #00dbff66;
   --pname-shadow: rgba(35, 33, 133, 0.863);
   --pname-color: rgba(189, 51, 182, 0.24);
 }
