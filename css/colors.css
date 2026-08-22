@@ -15,7 +15,7 @@
   --night: #0f172a;
   --white: #ffffff;
   --title-txt: rgba(52, 55, 236, 0.753);
-  --pname-color: #ffffff;
+
   --card-text: var(--text-color);
   --link-color: #ffffff;
   --section-bg: rgba(255, 255, 255, 0.384);
@@ -24,6 +24,9 @@
   --toggle-hover: var(--accent-color);
   --box-shadow: var(--accent-color);
   --border-color: magenta;
+  --pname-bg: cyan;
+  --pname-shadow: rgba(35, 33, 133, 0.863);
+  --pname-color: rgba(189, 51, 182, 0.24);
 }
 
 [data-theme="dark"] {
@@ -42,5 +45,7 @@
   --section-bg: rgba(39, 34, 34, 0.384);
   --grid-color: rgba(80, 130, 255, 0.13);
   --link-hover: cyan;
- 
+  --pname-bg: rgba(0, 255, 255, 0.11);
+  --pname-color: #f5f5f5;
+  --pname-shadow: navy;
 }

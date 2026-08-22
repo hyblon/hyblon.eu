@@ -52,9 +52,9 @@ h1.p-name {
   margin: 0.5rem 0 0 0;
   color: var(--pname-color);
   text-transform: uppercase;
-  background: var(--night);
+  background: var(--pname-bg);
   padding: 0.3em 5px;
-  text-shadow: 2px 2px 0 magenta;  
+  text-shadow: 2px 2px 0 var(--pname-shadow);  
   border: 2px solid magenta;
   box-shadow: 4px 4px 0 magenta;    
 }
@@ -305,6 +305,7 @@ section, .e-content {
 ::selection {
   background: cyan;
   color: var(--magenta); 
+  text-shadow: none;
 }
 
 #theme-toggle {
