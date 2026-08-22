@@ -49,3 +49,4 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("webmention-container").innerHTML = "<p>Impossibile caricare le webmentions.</p>";
     });
 });
+

@@ -1,7 +1,7 @@
 .h-card {
   display: flex;
   flex-direction: column;
-  color: rgb(15, 23, 42);
+  color: var(--card-text);
   border: 2px solid rgb(17, 207, 182);
   border-radius: 0px;
   box-shadow: rgb(255, 0, 255) 5px 5px 0px, rgba(96, 196, 183, 0.2) 10px 10px 0px;
@@ -23,7 +23,7 @@
 }
 
 nav a:not(:empty) {
-  color: rgb(255, 255, 255);
+  color: var(--link-color);
   background-color: rgb(17, 207, 182);
   padding: 10px 10px;
   text-decoration: none;
@@ -39,7 +39,7 @@ nav a:not(:empty) {
 nav a:hover {
   background-color: rgb(255, 0, 255);
   box-shadow: inset rgb(255, 0, 255) 5px 5px 0px, rgb(17, 207, 182) 5px 5px 0px;
-  color: var(--yellow);
+  color: var(--link-hover);
   border: 2px solid rgba(91, 52, 153, 0.664);
 }
 
@@ -62,10 +62,6 @@ p.p-note {
   letter-spacing: 0.5px;
 }
 
-section li{
-  color: rgb(35, 68, 64);
-  
-}
 
 main {
     border-bottom: 2px solid rgb(17, 207, 182);
@@ -91,4 +87,17 @@ main {
   }
 }
 
+#theme-toggle {
+  background: #f2f2f2;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  box-shadow: 3px 3px 0 #ff00d4;
+}
+
+[data-theme="dark"] #theme-toggle {
+  background: #10131a;
+  color: #00e6d6;
+  border-color: #00e6d6;
+  box-shadow: 3px 3px 0 #ff28dc;
+}
 
