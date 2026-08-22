@@ -290,7 +290,7 @@ body {
   background-size: 24px 24px;
 }
 
-.e-content {
+.e-content, .header-meta, .quoted-context {
   border: 2px solid var(--text-color);
   padding: 1.25rem;
   box-shadow: 5px 5px 0 var(--magenta);
