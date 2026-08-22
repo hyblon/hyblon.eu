@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
 blockquote {
   margin: 0;
   font-style: italic;
-  color: #1b3c7e;
-  background: aqua;
+  color: var(--text-color);
+  background: var(--pname-bg);
   padding: 0.2em 0.6em;
   line-height: 1.1;
   border: 2px solid magenta;
