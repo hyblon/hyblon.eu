@@ -49,7 +49,6 @@ article::before, article::after {
 }
 
 
-
 h1.p-name {
   margin: 0.5rem 0 0.5rem 0; 
   color: var(--pname-color);
