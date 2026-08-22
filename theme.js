@@ -1,18 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  const theme = localStorage.getItem("theme");
-  console.log(theme);
-  if (theme === "dark" || theme === "light") {
-    document.documentElement.dataset.theme = theme;
+  var currentTheme = localStorage.getItem("theme");
+  if (currentTheme === "dark" || currentTheme === "light") {
+    document.documentElement.dataset.theme = currentTheme;
   }
 const button = document.getElementById("theme-toggle");
 
 function updateButton(theme) {
   button.textContent = theme === "dark" ? "[light]" : "[dark]";
 }
-
-let currentTheme =
-  document.documentElement.dataset.theme || "light";
 
 updateButton(currentTheme);
 
