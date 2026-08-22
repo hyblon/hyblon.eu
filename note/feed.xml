@@ -6,6 +6,16 @@
     <description>Note di Hyblon</description>
     
     <item>
+        <title>Nuovo tema</title>
+        <author>Hyblon</author>
+        <link>00006.html</link>
+        <guid>00006.html</guid>
+        <pubDate>2026-08-11</pubDate>
+        <description><![CDATA[<p>Devo testare l’integrazione del nuovo tema con il generatore
+statico.</p>
+]]></description>
+    </item>
+    <item>
         <title>Inizio</title>
         <author>Hyblon</author>
         <link>00001.html</link>
