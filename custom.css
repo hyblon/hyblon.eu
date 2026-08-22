@@ -12,12 +12,22 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   background: var(--bg-color);
+  justify-content: center;
+  align-items: center;
 }
+
+.h-card .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.3em auto;
+  padding: 0.3em;
+}
+
+
 
 .h-card img {
   border-radius: 0px;
-  border: 2px solid rgba(96, 196, 183, 0.527);
-  filter:contrast(120%) brightness(80%);
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -55,13 +65,17 @@ nav a:hover {
 p.p-note {
   border-left: 3px solid rgb(255, 0, 255);
   padding-left: 15px;
-  text-align: left;
   font-size: 0.9rem;
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
+a.p-name {
+  text-transform: uppercase;
+  color: darkcyan;
+
+}
 
 main {
     border-bottom: 2px solid rgb(17, 207, 182);
