@@ -213,7 +213,7 @@ nav a:hover {
 }
 
 div[class=sourceCode] {
-    background: #3c5775ed;
+    background: darkcyan;
     padding: 1em;
     color: aliceblue;
     text-shadow: none;
