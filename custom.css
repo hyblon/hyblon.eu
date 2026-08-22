@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   color: rgb(15, 23, 42);
-  border: 2px solid rgb(96, 196, 183);
+  border: 2px solid rgb(17, 207, 182);
   border-radius: 0px;
   box-shadow: rgb(255, 0, 255) 5px 5px 0px, rgba(96, 196, 183, 0.2) 10px 10px 0px;
   padding: 2rem;
@@ -15,7 +15,7 @@
 
 .h-card img {
   border-radius: 0px;
-  border: 2px solid rgba(96, 196, 183, 0.247);
+  border: 2px solid rgba(96, 196, 183, 0.527);
   filter:contrast(120%) brightness(80%);
   margin-bottom: 1rem;
   border-radius: 50%;
@@ -23,19 +23,23 @@
 
 nav a:not(:empty) {
   color: rgb(255, 255, 255);
-  background-color: rgb(96, 196, 183);
-  padding: 15px 15px;
+  background-color: rgb(17, 207, 182);
+  padding: 10px 10px;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 1rem;
   font-weight: 900;
   transform: skewX(-10deg);
   font-size: 16px;
+  box-shadow: 4px 4px 0 magenta;
+  border: 2px solid rgba(91, 52, 153, 0.664);
 }
 
 nav a:hover {
   background-color: rgb(255, 0, 255);
-  box-shadow: inset rgb(255, 0, 255) 5px 5px 0px, rgba(96, 196, 183, 0.2) 5px 5px 0px;
+  box-shadow: inset rgb(255, 0, 255) 5px 5px 0px, rgb(17, 207, 182) 5px 5px 0px;
+  color: var(--yellow);
+  border: 2px solid rgba(91, 52, 153, 0.664);
 }
 
 #top-menu {
@@ -63,7 +67,7 @@ section li{
 }
 
 main {
-    border-bottom: 2px solid rgb(96, 196, 183);
+    border-bottom: 2px solid rgb(17, 207, 182);
     box-shadow:  rgb(255, 0, 255) 0px 5px 0px, rgba(96, 196, 183, 0.2) 0px 5px 0px;
 }
 
@@ -81,9 +85,9 @@ main {
     padding-top: 1em;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgb(96, 196, 183);
+    border-bottom: 2px solid rgb(17, 207, 182);
     box-shadow:  rgb(255, 0, 255) 0px 5px 0px, rgba(96, 196, 183, 0.2) 0px 5px 0px;
-    }
   }
-
 }
+
+
