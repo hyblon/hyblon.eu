@@ -16,6 +16,7 @@
   --night: #0f172a;
   --white: #ffffff;
   --title-txt: rgba(52, 55, 236, 0.753);
+  --pname-color: #ffffff;
   --card-text: var(--text-color);
   --link-color: #ffffff;
   --section-bg: rgba(255, 255, 255, 0.384);
@@ -26,6 +27,7 @@
 [data-theme="dark"] {
   --bg-color: #293144;
   --text-color: #d7dce5;
+  --pname-color: #ffffff;
   --accent-color: #8c96a8;
   --selection-color: #00e5ff;
   --border-color: #ea580c;

@@ -50,7 +50,7 @@ article::before, article::after {
 
 h1.p-name {
   margin: 0.5rem 0 0 0;
-  color: var(--title-txt);
+  color: var(--pname-color);
   text-transform: uppercase;
   background: var(--night);
   padding: 0.3em 5px;
